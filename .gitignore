@@ -6,3 +6,19 @@ data/
 *.log
 .venv
 .dbt/
+
+# Telegram images
+# ----------------------
+*.jpg
+*.jpeg
+*.png
+
+# ----------------------
+# dbt
+# ----------------------
+dbt_packages/
+target/
+logs/
+manifest.json
+run_results.json
+dbt_modules/
