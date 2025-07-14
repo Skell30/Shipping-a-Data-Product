@@ -22,3 +22,36 @@ logs/
 manifest.json
 run_results.json
 dbt_modules/
+
+dbt_packages/
+target/
+logs/
+manifest.json
+run_results.json
+dbt_modules/
+
+# --------------------
+# PostgreSQL dump / temp
+# --------------------
+*.sql
+*.dump
+
+# --------------------
+# FastAPI / Uvicorn
+# --------------------
+*.log
+*.pid
+__pycache__/
+*.py[cod]
+
+# --------------------
+# IDEs and editors
+# --------------------
+.vscode/
+.idea/
+
+# --------------------
+# OS-specific
+# --------------------
+.DS_Store
+Thumbs.db
