@@ -15,8 +15,8 @@ clean-targets:
 
 models:
   telegram_dbt:
-    core:
-      +schema: staging
+    staging:
       +materialized: view
+
   
 
