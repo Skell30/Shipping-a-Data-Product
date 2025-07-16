@@ -1,7 +1,7 @@
 from dagster import Definitions
-from .assets import telegram_scrape_job
+from .assets import telegram_pipeline_job
 
 defs = Definitions(
-    jobs=[telegram_scrape_job]
+    jobs=[telegram_pipeline_job]
 )
 
